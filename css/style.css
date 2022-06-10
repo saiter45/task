@@ -1,0 +1,49 @@
+.task {
+    width: 400px;
+    height: 150px;
+    border: 2px solid;
+    border-radius: 10px;
+    background: aqua;
+    margin: 20px auto;
+}
+
+.task_new {
+    width: 300px;
+    height: 100px;
+    border: 4px solid;
+    border-radius: 10px;
+    background: aquamarine;
+}
+
+.remove {
+    display: flex;
+    justify-content: center;
+
+}
+
+.desk {
+    width: 90%;
+    margin: 20px auto;
+    border: 2px solid black;
+    height: 400px;
+    overflow-y: scroll;
+    background: azure;
+    border-radius: 10px;
+}
+
+.edit-task {
+    cursor: pointer;
+    margin-left: 20px;
+    block-size: 15px;
+}
+
+.remove-task:hover {
+    color:blue;
+}
+
+.remove-task {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
